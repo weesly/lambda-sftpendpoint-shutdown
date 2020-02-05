@@ -4,7 +4,7 @@ This little lambda function will shutdown all running sFTP endpoints (AWS Transf
 # ToDo
 
 1. First you need to create a Lambda function
-2. Create custom IAM policy (See policy-iam.json for mor information)
+2. Create custom IAM policy (See [policy-iam.json](policy-iam.json) for mor information)
 3. Create an scheduled CloudWatch Event, and use - for example `59 23 ? * MON-FRI *` as Cronjob Statement, to run the Lambda function every weekdays evening at 23:59:00 to shutdown all running endpoints.
 4. Choose Lambda as target
 5. Enjoy!
